@@ -1,0 +1,25 @@
+{
+  "name": "consul-config-loader",
+  "version": "1.0.0",
+  "description": "The idea is to load several key/value paths from Consul, flatten them to a single object, and replace placeholders (e.g. `${database.host}`) with properties of the same configuration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trombini/consul-config-loader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trombini/consul-config-loader/issues"
+  },
+  "homepage": "https://github.com/trombini/consul-config-loader#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jest": "^24.9.0"
+  }
+}
